@@ -352,8 +352,6 @@ function numberToStringInBase(number, base) {
 function toExponential(number, fractionDigits) {
   return number.toExponential(fractionDigits);
 }
-console.log(toExponential(12.345, 7));
-
 /**
  * Returns a string representation of a number in fixed-point notation.
  *
@@ -368,8 +366,6 @@ console.log(toExponential(12.345, 7));
 function toFixed(number, fractionDigits) {
   return number.toFixed(fractionDigits);
 }
-console.log(toFixed(12345, 2));
-console.log(toFixed(12.345, 2));
 
 /**
  * Returns a string representation of a number in normal (fixed-point or exponential)
